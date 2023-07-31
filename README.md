@@ -72,3 +72,11 @@
 
 - 学习了三大特性封装、继承、多态
 - super、this的区别
+
+## day10
+
+- 学习了三个修饰符abstecat、static、final
+- abstecat不能和static一起使用
+- abstecat不能和final一起使用
+- 使用abstecat子类必须重写方法
+- 使用static不能重写方法，只能重载
