@@ -96,3 +96,8 @@
 - 学习了String类，以及它的方法
 - 学习了可变字符串，StringBuilder、StringBuffer
 
+## day13
+
+- 学习了正则表达式
+- 学习了BigDecimal类、Math类、Random类、Data类、SimpleTimeFormat类、Calendar类、System类、Runtime类
+- 学习了异常的抛出、声明、定义
