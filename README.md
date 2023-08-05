@@ -101,3 +101,10 @@
 - 学习了正则表达式
 - 学习了BigDecimal类、Math类、Random类、Data类、SimpleTimeFormat类、Calendar类、System类、Runtime类
 - 学习了异常的抛出、声明、定义
+
+## day14
+
+- 学习了集合
+- 学习了ArrayList、LinkedList
+- 学习了数组、链表、栈、队列类的方法
+- 学习了hashSet 重写hashCode、equals方法
