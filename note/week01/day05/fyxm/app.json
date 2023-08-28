@@ -1,0 +1,52 @@
+{
+  "pages":[
+    "pages/index/index",
+    "pages/my/my",
+    "pages/meet/meet",
+    "pages/study/study",
+    "pages/active/active",
+    "pages/authentication/authentication",
+    "pages/class/class",
+    "pages/my_meet/my_meet",
+    "pages/my_active/my_active",
+    "pages/about/about",
+    "pages/feedback/feedback"
+  ],
+  "tabBar": {
+    "list": [{
+      "pagePath": "pages/index/index",
+      "text": "首页",
+      "iconPath": "/img/home.png",
+      "selectedIconPath": "/img/selectHome.png"
+    },{
+      "pagePath": "pages/meet/meet",
+      "text": "峰享会",
+      "iconPath": "/img/Meettab.png",
+      "selectedIconPath": "/img/selectMeet.png"
+    },{
+      "pagePath": "pages/study/study",
+      "text": "学习",
+      "iconPath": "/img/Study.png",
+      "selectedIconPath": "/img/selectStudy.png"
+    },{
+      "pagePath": "pages/active/active",
+      "text": "活动",
+      "iconPath": "/img/Act.png",
+      "selectedIconPath": "/img/selectAct.png"
+    },{
+      "pagePath": "pages/my/my",
+      "text": "我的",
+      "iconPath": "/img/My.png",
+      "selectedIconPath": "/img/selectMy.png"
+    }
+  ]
+  },
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "Weixin",
+    "navigationBarTextStyle":"black"
+  },
+  "style": "v2",
+  "sitemapLocation": "sitemap.json"
+}

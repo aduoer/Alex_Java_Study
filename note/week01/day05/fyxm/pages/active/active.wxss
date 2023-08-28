@@ -1,0 +1,13 @@
+.list_box{
+  height: 190rpx;
+  width: 98%;
+  height: 330rpx;
+  display: flex;
+  margin-bottom: 40rpx;
+}
+.list_box_img{
+  height: 100%;
+  width: 100%;
+  margin-left: 20rpx;
+  border-radius: 20rpx;
+}

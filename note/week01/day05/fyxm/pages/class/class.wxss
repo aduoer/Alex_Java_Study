@@ -1,0 +1,15 @@
+.no_class{
+  width: 800rpx;
+}
+.no_class_img{
+  height: 800rpx;
+  width: 100%;
+  margin: 0 auto;
+}
+.prompt{
+  font-size: 40rpx;
+  color: gray;
+  position: relative;
+  left: 280rpx;
+  top: -150rpx;
+}

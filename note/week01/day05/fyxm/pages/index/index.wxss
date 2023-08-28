@@ -1,0 +1,143 @@
+
+.banner{
+  width: 94%;
+  height: 300rpx;
+  margin: auto;
+}
+.banner swiper{
+  height: 100%;
+  width: 100%;
+}
+.banner image{
+  width: 100%;
+  height: 300rpx;
+  border-radius: 30rpx;
+}
+.fx{
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-between;
+}
+.fx_title{
+  font-size: 52rpx;
+  font-weight: bold;
+  margin-top: 30rpx;
+  margin-left: 35rpx;
+}
+.fx_more{
+  font-size: 33rpx;
+  color: gray;
+  margin: 40rpx;
+  text-align:right;
+  padding-right:10rpx; 
+}
+.fx_meet{
+  display:flex;
+}
+.meet_box{
+  height: 350rpx;
+  width: 70%;
+  margin-left: 30rpx;
+  border-radius: 30rpx;
+  box-shadow: 5rpx 5rpx 5rpx #F3F3F3;
+}
+.meet_box_img{
+  width: 100%;
+  height: 60%;
+  border-top-left-radius: 30rpx;
+  border-top-right-radius: 30rpx;
+}
+.meet_box_text{
+  font-size: 35rpx;
+  word-break:keep-all;
+  white-space:nowrap;
+  overflow:hidden; 
+  margin-left: 20rpx;
+  
+}
+.meet_box_bottom{
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-between;
+}
+.meet_box_bottom_time{
+  color: #277FFF;
+  background-color: #E9F2FF;
+  width: 60%;
+  font-size: 25rpx;
+  text-align: center;
+  line-height: 60rpx;
+  border-radius: 60rpx;
+  margin: 20rpx;
+}
+.meet_box_bottom_yuyue{
+  color: gray;
+  font-size: 24rpx;
+  margin-top: 30rpx;
+  margin-right: 20rpx;
+}
+.select{
+  margin-top: 10rpx;
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-between;
+  height: 120rpx;
+}
+.select_menu{
+  font-size: 30rpx;
+  margin-left: 50rpx;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.menu :hover{
+  font-size: 35rpx;
+  font-weight: bold;
+}
+.select_more{
+  font-size: 33rpx;
+  color: gray;
+  text-align:right;
+  padding-right:10rpx; 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.list_box{
+  height: 190rpx;
+  width: 700rpx;
+  margin-bottom: 40rpx;
+  height: 200rpx;
+  display: flex;
+}
+.list_box_left{
+  height: 190rpx;
+  width: 380rpx;
+  margin-left: 30rpx;
+  border-radius: 20rpx;
+}
+.list_box_right .title{
+  position: relative;
+  left: 20rpx;
+  font-size: 40rpx;
+  font-weight: bold;
+  width: 420rpx;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.biaoqian{
+  margin-left: 30rpx;
+  margin-top: 30rpx;
+  width: 120rpx;
+  background-color: #E9F2FF;
+  color: #277FFF;
+  text-align: center;
+  line-height: 60rpx;
+  border-radius: 20rpx;
+}
+.renshu{
+  margin-top: 15rpx;
+  margin-left: 20rpx;
+  color: gray;
+}

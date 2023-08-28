@@ -1,0 +1,53 @@
+<view class="banner">
+   <swiper indicator-dots indicator-color="rgba(255,255,255,0.5)"
+   indicator-active-color="#fff" circular autoplay interval="4000">
+   <swiper-item><image src="/img/lunbo_one.png"></image></swiper-item>
+   <swiper-item><image src="/img/lunbo_one.png"></image></swiper-item>
+   <swiper-item><image src="/img/lunbo_one.png"></image></swiper-item>
+   </swiper>
+</view>
+<view class="fx">
+  <view class="fx_title">峰享会</view>
+  <view class="fx_more" bindtap="go" data-go= "pages/meet/meet">更多></view>
+</view>
+<view class="fx_meet">
+    <view  class="meet_box" wx:for="{{meetList}}" wx:key="index">
+      <image class="meet_box_img" src="/img/lunbo_one.png"/>
+      <view class="meet_box_text">
+        峰享会-新趋势下的红帽如何助力个人职场破局
+      </view>
+      <view class="meet_box_bottom">
+        <text class="meet_box_bottom_time">开播:2023-07-23 19:20</text>
+        <text class="meet_box_bottom_yuyue">1272人已预约</text>
+      </view>
+  </view> 
+</view>
+<view class="select">
+  <view class="select_menu">
+    <view class="menu">
+      职后进阶课
+    </view>
+  </view>
+  <view class="select_menu">认证考试</view>
+  <view class="select_menu">学历提升</view>
+  <view class="select_more" bindtap="go" data-go= "pages/study/study">更多></view>
+</view>
+
+<view class="list">
+  <view class="list_box" wx:for="{{list}}"  
+  wx:for-index="index"
+  wx:for-item="item" wx:key="index">
+      <image class="list_box_left" src="{{item.img}}"/>
+    <view class="list_box_right">
+      <view class="title">
+        {{item.title}}
+      </view>
+      <view class="biaoqian">
+        高并发
+      </view>
+      <view class="renshu">
+        178人学习
+      </view>
+    </view>
+  </view>
+</view>

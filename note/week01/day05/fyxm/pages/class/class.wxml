@@ -1,0 +1,4 @@
+<view class="no_class">
+  <image src="/img/no_class.png"class="no_class_img"/>
+  <text class="prompt">暂无数据</text>
+</view>

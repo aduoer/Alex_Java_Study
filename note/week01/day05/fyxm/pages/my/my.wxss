@@ -1,0 +1,121 @@
+
+.top_box {
+  height: 180rpx;
+  width: 100%;
+  padding: 0 30rpx 30rpx 30rpx;
+  display: flex;
+  box-sizing: border-box;
+  border-bottom: 1rpx solid #eee;
+}
+
+.top_1 {
+  position: relative;
+  top: 15rpx;
+  display: flex;
+  flex-direction: column;
+  width: 70%;
+  justify-content: space-between;
+  height: 140rpx;
+  box-sizing: border-box;
+  padding: 10rpx 20rpx;
+}
+
+.top_1_1 {
+  position: relative;
+  left: 157rpx;
+  top: 6rpx;
+  font-size: 42rpx;
+  font-weight: bold;
+  letter-spacing: 2rpx;
+}
+
+.top_1_2 {
+  position: relative;
+  left: 157rpx;
+  font-size: 28rpx;
+  color: #919191;
+  line-height: 42rpx;
+}
+
+.top_2 {
+  position: relative;
+  left: -527rpx; 
+  top: 20rpx;
+  width: 30%;
+  height: 140rpx;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.avator {
+  width: 140rpx;
+  height: 140rpx;
+  border-radius: 70rpx;
+  overflow: hidden;
+}
+
+.avator image {
+  width: 140rpx;
+  height: 140rpx;
+}
+
+
+.blank {
+  width: 100%;
+  height: 20rpx;
+  background: #f4f4f4;
+}
+
+.bottom_box {
+  width: 100%;
+  display: flex;
+  box-sizing: border-box;
+  padding: 0 40rpx;
+  flex-direction: column;
+}
+
+.bottom_card {
+  position: relative;
+  width: 100%;
+  height: 124rpx;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-bottom: 1rpx solid #eee;
+  background: #fff;
+}
+.bottom_card button{
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  left: 0;
+  top: 0;
+  opacity: 0.01;
+}
+.bottom_card image {
+  width: 14rpx;
+  height: 25rpx;
+}
+
+.bottom_1 {
+  display: flex;
+  height: 100%;
+  align-items: center;
+}
+
+.bottom_1 image {
+  width: 40rpx;
+  height: 40rpx;
+}
+
+.bottom_1 view {
+  font-size: 30rpx;
+  letter-spacing: 3rpx;
+  padding-left: 30rpx;
+}
+.bottom{
+  background-color: #f4f4f4;
+  height: 350rpx;
+  width: 100%;
+}

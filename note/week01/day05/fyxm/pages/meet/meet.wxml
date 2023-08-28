@@ -1,0 +1,27 @@
+<view class="title">
+  <view class="title_title">
+    全部学科
+  </view>
+  <picker mode="selector" range="{{array}}" value="{{index}}" bindchange="pickerChange" class="select">
+    <view class="select_wenzi">切换学科</view>
+    <view class="select_char">▼</view>
+</picker>
+
+</view>
+
+<view class="list"wx:for="{{list}}"  
+  wx:for-index="index"
+  wx:for-item="item" wx:key="index">
+  <view class="list_box" >
+      <image class="list_box_left" src="{{item.img}}"/>
+    <view class="list_box_right">
+      <view class="title">
+        {{item.title}}
+      </view>
+      <view class="time">
+        {{item.time}}
+      </view>
+    </view>
+  </view>
+  <view class="empty"/>
+</view>

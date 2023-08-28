@@ -1,0 +1,35 @@
+.list_box{
+  height: 190rpx;
+  width: 800rpx;
+  height: 200rpx;
+  display: flex;
+}
+.list_box_left{
+  height: 190rpx;
+  width: 35%;
+  margin-left: 20rpx;
+  border-radius: 20rpx;
+}
+.list_box_right{
+  width: 60%;
+}
+.list_box_right .title{
+  font-size: 33rpx;
+  font-weight: bold;
+  width: 430rpx;
+  margin-left: 20rpx;
+}
+
+.time{
+  color: gray;
+  white-space: nowrap;
+  font-size: 20rpx;
+  margin-top: 100rpx;
+  margin-left: 20rpx;
+}
+.empty{
+  background-color: #f3f3f3;
+  height: 7rpx;
+  margin-top: 20rpx;
+  margin-bottom: 20rpx;
+}

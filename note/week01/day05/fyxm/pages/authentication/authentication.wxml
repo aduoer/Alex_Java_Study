@@ -1,0 +1,25 @@
+<view class="background">
+  <view class="title">
+    <view class="top_title">
+      <text>填写认证信息</text>
+    </view>
+    <view class="bottom_title">
+      <text>注：适用于千峰学员认证</text>
+    </view>
+  </view>
+  <view class="info">
+    <view class="name">
+      姓名<text class="zhu"> * </text>
+      <input type="text" placeholder="请输入"/>
+    </view>
+    <view class="emtpy"/>
+    <view class="IDnum">
+      ID号<text class="zhu"> * </text>
+      <input type="text" placeholder="请输入"/>
+    </view>
+    <view class="emtpy"/>
+    <view class="button">
+      <button class="baocun">保存</button>
+    </view>
+  </view>
+</view>

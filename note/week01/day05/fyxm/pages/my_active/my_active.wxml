@@ -1,0 +1,4 @@
+<view class="no_meet">
+  <image src="/img/no_class.png"class="no_meet_img"/>
+  <text class="prompt">暂无数据</text>
+</view>

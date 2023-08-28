@@ -1,0 +1,74 @@
+<view class="blank"></view>
+<view class="top_box" wx:if="{{!hasUserInfo}}">
+      <view class="top_1">
+        <view class="top_1_1" bindtap="getUserProfile">点击登录</view>
+        <view class="top_1_2">一秒登录，体验所有功能</view>
+      </view>
+      <view class="top_2">
+        <view class="avator">
+          <image src="/images/no_login.png" bindtap="getUserProfile" ></image>
+        </view>
+      </view>
+</view>
+
+<view class="top_box" wx:if="{{hasUserInfo}}">
+  <view class="top_1" >
+    <view class="top_1_1">{{userInfo.nickName}}</view>
+      <!-- <view class="top_1_2">点击修改资料</view> -->
+      <view class="top_1_2">拼搏到无能为力，努力到感动自己!</view>
+  </view>
+  <view class="top_2">
+    <view class="avator">
+        <image src="{{userInfo.avatarUrl}}"></image>
+    </view>
+  </view>
+</view>
+
+<view class="blank"></view>
+<view class="bottom_box">
+      <view class="bottom_card" bindtap="go" data-go="pages/authentication/authentication" data-status="1">
+            <view class="bottom_1">
+              <image src="/img/authentication.png"></image>
+                  <view>千峰学员认证</view>
+            </view>
+            <image src="/img/go.png"></image>
+      </view>
+
+      <view class="bottom_card" bindtap="go" data-go="pages/class/class" data-status="1">
+            <view class="bottom_1">
+              <image src="/img/class.png"></image>
+                <view>我的课程</view>
+            </view>
+            <image src="/img/go.png"></image>
+      </view>
+      <view class="bottom_card" bindtap="go" data-go= "pages/my_meet/my_meet" data-status="1">
+            <view class="bottom_1">
+              <image src="/img/meet.png"></image>
+                  <view>我的峰享会</view>
+            </view>
+            <image src="/img/go.png"></image>
+      </view>
+      <view class="bottom_card" bindtap="go" data-go="pages/my_active/my_active"  data-status="1">
+            <view class="bottom_1">
+              <image src="/img/activity.png"></image>
+                  <view>我的活动</view>
+            </view>
+            <image src="/img/go.png"></image>
+      </view>
+      <view class="bottom_card" bindtap="go" data-go="pages/about/about"  data-status="1">
+            <view class="bottom_1">
+              <image src="/img/about.png"></image>
+                  <view>关于我们</view>
+            </view>
+            <image src="/img/go.png"></image>
+      </view>
+      <view class="bottom_card" bindtap="go" data-go="pages/feedback/feedback"  data-status="1">
+            <view class="bottom_1">
+              <image src="/img/feedback.png"></image>
+                  <view>问题反馈</view>
+            </view>
+            <image src="/img/go.png"></image>
+      </view>
+</view>
+      
+<view class="bottom"></view>
